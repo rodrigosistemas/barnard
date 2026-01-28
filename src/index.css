@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@theme {
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+  --color-brand-blue: #0F172A; /* Azul Barnard */
+  --color-brand-amber: #F59E0B; /* Detalles en ámbar */
+}
+
+body {
+  @apply bg-[#F8FAFC] text-brand-blue font-sans antialiased;
+}
+
+.animate-stamp {
+  animation: stampReveal 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+}
+
+@keyframes stampReveal {
+  0% { opacity: 0; transform: scale(1.05); filter: blur(10px); }
+  100% { opacity: 1; transform: scale(1); filter: blur(0); }
+}
