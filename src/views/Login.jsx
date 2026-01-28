@@ -36,7 +36,7 @@ export default function Login() {
     <div className="min-h-screen flex items-center justify-center p-6 bg-[#F8FAFC]">
       <div className="w-full max-w-md bg-white rounded-[2.5rem] shadow-2xl p-12 text-center animate-stamp">
         <div className="flex justify-center mb-8">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCtppI9KmgCyQh7nes0N5OE2t68oTTR3t8Og&s" alt="Barnard Logo" className="h-12" />
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCtppI9KmgCyQh7nes0N5OE2t68oTTR3t8Og&s" alt="Barnard Logo" className="h-20" />
         </div>
         <h2 className="text-3xl font-serif text-slate-900 mb-2">Bienvenido</h2>
         <p className="text-[10px] font-bold text-slate-400 uppercase tracking-[0.3em] mb-12 italic">Portal Académico</p>
