@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
-const API_URL = "https://script.google.com/macros/s/AKfycbx6zmlH3KJ8KGR-_YnMoHk7fOZ-o_DSuI9wNm4WSPBaI65MQ5qjJSEKuSQ5tfww2k1q/exec";
+const API_URL = "https://script.google.com/macros/s/AKfycbwd7Q_JMvlSu33tT-5rXlJXH9j3t1kQO9EfRbj3n4A0sGaavh9iicFjgmqQK69jQrN_/exec";
 
 export default function Login() {
   const [dni, setDni] = useState('');
